@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 432">
+  <defs>
+    <style>
+      circle{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}
+    </style>
+  </defs>
+  <rect width="100%" height="100%" style="stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;fill:#fff"/>
+  <path style="stroke-width:1.07;stroke:#1f77b4;stroke-linecap:butt" d="M217.63 352.21h36.01"/>
+  <path style="stroke-width:1.07;stroke:#1f77b4;stroke-linecap:butt" d="M289.65 304.24h21.6"/>
+  <path style="stroke-width:1.07;stroke:#ff7f0e;stroke-linecap:butt" d="M296.85 256.27h-7.2"/>
+  <path style="stroke-width:1.07;stroke:#1f77b4;stroke-linecap:butt" d="M484.08 208.31h21.6"/>
+  <path style="stroke-width:1.07;stroke:#ff7f0e;stroke-linecap:butt" d="M570.5 160.34h-43.21"/>
+  <path style="stroke-width:1.07;stroke:#1f77b4;stroke-linecap:butt" d="M592.1 112.37h7.2"/>
+  <path style="stroke-width:1.07;stroke:#ff7f0e;stroke-linecap:butt" d="M678.51 64.4h-28.8"/>
+  <circle cx="678.51" cy="64.4" r="2.93" style="stroke-width:.71;stroke:#ff7f0e;fill:#ff7f0e"/>
+  <circle cx="592.1" cy="112.37" r="2.93" style="stroke-width:.71;stroke:#ff7f0e;fill:#ff7f0e"/>
+  <circle cx="296.85" cy="256.27" r="2.93" style="stroke-width:.71;stroke:#ff7f0e;fill:#ff7f0e"/>
+  <circle cx="570.5" cy="160.34" r="2.93" style="stroke-width:.71;stroke:#ff7f0e;fill:#ff7f0e"/>
+  <circle cx="484.08" cy="208.31" r="2.93" style="stroke-width:.71;stroke:#ff7f0e;fill:#ff7f0e"/>
+  <circle cx="217.63" cy="352.21" r="2.93" style="stroke-width:.71;stroke:#ff7f0e;fill:#ff7f0e"/>
+  <circle cx="289.65" cy="304.24" r="2.93" style="stroke-width:.71;stroke:#ff7f0e;fill:#ff7f0e"/>
+  <circle cx="649.71" cy="64.4" r="2.93" style="stroke-width:.71;stroke:#1f77b4;fill:#1f77b4"/>
+  <circle cx="599.3" cy="112.37" r="2.93" style="stroke-width:.71;stroke:#1f77b4;fill:#1f77b4"/>
+  <circle cx="289.65" cy="256.27" r="2.93" style="stroke-width:.71;stroke:#1f77b4;fill:#1f77b4"/>
+  <circle cx="527.29" cy="160.34" r="2.93" style="stroke-width:.71;stroke:#1f77b4;fill:#1f77b4"/>
+  <circle cx="505.68" cy="208.31" r="2.93" style="stroke-width:.71;stroke:#1f77b4;fill:#1f77b4"/>
+  <circle cx="253.64" cy="352.21" r="2.93" style="stroke-width:.71;stroke:#1f77b4;fill:#1f77b4"/>
+  <circle cx="311.25" cy="304.24" r="2.93" style="stroke-width:.71;stroke:#1f77b4;fill:#1f77b4"/>
+  <text x="685.52" y="66.91" style="font-size:7.11;font-family:Arial">75%</text>
+  <text x="571.08" y="114.88" style="font-size:7.11;font-family:Arial">63%</text>
+  <text x="303.85" y="258.78" style="font-size:7.11;font-family:Arial">22%</text>
+  <text x="577.5" y="162.85" style="font-size:7.11;font-family:Arial">60%</text>
+  <text x="463.06" y="210.81" style="font-size:7.11;font-family:Arial">48%</text>
+  <text x="196.62" y="354.72" style="font-size:7.11;font-family:Arial">11%</text>
+  <text x="268.63" y="306.75" style="font-size:7.11;font-family:Arial">21%</text>
+  <text x="7.93" y="355.43" style="font-size:8.8;font-family:Arial Narrow">Enhances the timeliness of threat data</text>
+  <text x="19.84" y="307.46" style="font-size:8.8;font-family:Arial Narrow">Makes threat data more actionable</text>
+  <text x="21.87" y="254.74" style="font-size:8.8;font-family:Arial Narrow">Reduces the cost of detecting and</text>
+  <text x="53.48" y="264.24" style="font-size:8.8;font-family:Arial Narrow">preventing cyber attacks</text>
+  <text x="5.48" y="206.77" style="font-size:8.8;font-family:Arial Narrow">Fosters collaboration among peers and</text>
+  <text x="83.03" y="216.28" style="font-size:8.8;font-family:Arial Narrow">industry groups</text>
+  <text x="30.11" y="163.56" style="font-size:8.8;font-family:Arial Narrow">Improves situational awareness</text>
+  <text x="16.14" y="110.84" style="font-size:8.8;font-family:Arial Narrow">Improves the security posture of the</text>
+  <text x="41.6" y="120.34" style="font-size:8.8;font-family:Arial Narrow">nations critical infrastructure</text>
+  <text x="16.57" y="62.87" style="font-size:8.8;font-family:Arial Narrow">Improves the security posture of my</text>
+  <text x="93.28" y="72.37" style="font-size:8.8;font-family:Arial Narrow">organization</text>
+  <path style="stroke-width:1.07;stroke:#1f77b4;stroke-linecap:butt" d="M393.42 405.12h13.83"/>
+  <circle cx="400.33" cy="405.12" r="2.93" style="stroke-width:.71;stroke:#1f77b4;fill:#1f77b4"/>
+  <path style="stroke-width:1.07;stroke:#ff7f0e;stroke-linecap:butt" d="M431.44 405.12h13.82"/>
+  <circle cx="438.35" cy="405.12" r="2.93" style="stroke-width:.71;stroke:#ff7f0e;fill:#ff7f0e"/>
+  <text x="411.13" y="408.34" style="font-size:8.8;font-family:Arial Narrow">2014</text>
+  <text x="449.15" y="408.34" style="font-size:8.8;font-family:Arial Narrow">2015</text>
+  <text x="138.42" y="14.79" style="font-size:13.2;font-family:Arial Narrow">Fig 3: Reasons for fully participating</text>
+</svg>

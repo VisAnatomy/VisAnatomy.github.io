@@ -1,0 +1,486 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1030" height="775" style="background:#fff">
+  <desc>
+    The first place team as of a given race will always be at the top of the chart. The spacing from one team to the next shows relative gains/losses made from one race to the next. The legend is listed in order of rank as of last race. Nodes specify the score as of that race for that team.
+  </desc>
+  <defs>
+    <style>
+      text{fill:#888;font-family:Arial,sans-serif;font-size:10pt}.team-race-group text,.y-axis-label{text-anchor:middle}.linegraph-group *{opacity:.75}.chart-node{stroke-width:0}.chart-line:hover,.chart-node:hover{stroke-width:4px;opacity:1}.team-label{fill:#111}.team-label-group{opacity:.6}.team-label-group:hover{opacity:1}.team-info-group{opacity:0}.score-label{fill:#000}.y-grid{stroke:#ccc;stroke-dasharray:1,3;stroke-linecap:round}.focus,.focus *{opacity:1;display:svg}.focus .chart-node,.focus path{stroke-width:4px}
+    </style>
+  </defs>
+  <script type="text/javascript">
+    <![CDATA[ function highlight(id) {
+    var elem = document.getElementById(id);
+    if (elem)
+	elem.classList.add("focus");
+}
+function unhighlight(id) {
+    var elem = document.getElementById(id);
+    if (elem)
+	elem.classList.remove("focus");
+}]]>
+  </script>
+  <g style="fill:#fff">
+    <desc>
+      B: Classical Purple
+    </desc>
+    <rect fill="none" x="5" y="5" width="1020" height="765" rx="5" ry="5" style="stroke-width:1px;stroke:#aaa"/>
+    <path d="M25 80V60h725" style="stroke:#aaa;stroke-width:1px;fill:none"/>
+    <text transform="rotate(90 -35 55)" class="x-axis-label">Running winner</text>
+    <text class="y-axis-label" x="50" y="40">1</text>
+    <path class="y-grid" d="M50 60v645"/>
+    <text class="y-axis-label" x="90" y="40">1</text>
+    <path class="y-grid" d="M90 60v645"/>
+    <text class="y-axis-label" x="130" y="40">2</text>
+    <path class="y-grid" d="M130 60v645"/>
+    <text class="y-axis-label" x="170" y="40">2</text>
+    <path class="y-grid" d="M170 60v645"/>
+    <text class="y-axis-label" x="210" y="40">3</text>
+    <path class="y-grid" d="M210 60v645"/>
+    <text class="y-axis-label" x="250" y="40">3</text>
+    <path class="y-grid" d="M250 60v645"/>
+    <text class="y-axis-label" x="290" y="40">4</text>
+    <path class="y-grid" d="M290 60v645"/>
+    <text class="y-axis-label" x="330" y="40">4</text>
+    <path class="y-grid" d="M330 60v645"/>
+    <text class="y-axis-label" x="370" y="40">5</text>
+    <path class="y-grid" d="M370 60v645"/>
+    <text class="y-axis-label" x="410" y="40">5</text>
+    <path class="y-grid" d="M410 60v645"/>
+    <text class="y-axis-label" x="450" y="40">6</text>
+    <path class="y-grid" d="M450 60v645"/>
+    <text class="y-axis-label" x="490" y="40">6</text>
+    <path class="y-grid" d="M490 60v645"/>
+    <text class="y-axis-label" x="530" y="40">7</text>
+    <path class="y-grid" d="M530 60v645"/>
+    <text class="y-axis-label" x="570" y="40">7</text>
+    <path class="y-grid" d="M570 60v645"/>
+    <text class="y-axis-label" x="610" y="40">8</text>
+    <path class="y-grid" d="M610 60v645"/>
+    <text class="y-axis-label" x="650" y="40">8</text>
+    <path class="y-grid" d="M650 60v645"/>
+    <text class="y-axis-label" x="690" y="40">9</text>
+    <path class="y-grid" d="M690 60v645"/>
+    <text class="y-axis-label" x="730" y="40">9</text>
+    <path class="y-grid" d="M730 60v645"/>
+    <g class="linegraph-group" id="scores-history-series-73552-A">
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="46.5" y="226.237" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="86.5" y="226.237" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="126.5" y="208.265" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="166.5" y="208.265" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="206.5" y="324.236" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="246.5" y="324.236" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="286.5" y="360.029" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="326.5" y="360.029" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="366.5" y="364" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="406.5" y="364" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="446.5" y="400.917" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="486.5" y="400.917" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="526.5" y="435.912" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="566.5" y="435.912" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="606.5" y="456.682" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="646.5" y="456.682" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="686.5" y="468.468" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="726.5" y="468.468" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 229.737h40l40-17.972h40l40 115.97h40l40 35.794h40l40 3.971h40l40 36.917h40l40 34.995h40l40 20.77h40l40 11.786h40" id="scores-history-linegraph-73552-A" stroke="#eeb211" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73552-A&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73552-A&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73552-B">
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="46.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="86.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="126.5" y="492.824" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="166.5" y="492.824" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="206.5" y="470.274" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="246.5" y="470.274" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="286.5" y="502.309" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="326.5" y="502.309" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="366.5" y="454" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="406.5" y="454" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="446.5" y="457.277" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="486.5" y="457.277" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="526.5" y="408.811" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="566.5" y="408.811" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="606.5" y="395.478" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="646.5" y="395.478" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="686.5" y="372.758" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#eeb211" stroke="#eeb211" class="chart-node" x="726.5" y="372.758" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 705h40l40-208.676h40l40-22.55h40l40 32.035h40l40-48.309h40l40 3.277h40l40-48.466h40l40-13.333h40l40-22.72h40" id="scores-history-linegraph-73552-B" stroke="#eeb211" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73552-B&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73552-B&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73553-A">
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="46.5" y="633.605" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="86.5" y="633.605" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="126.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="166.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="206.5" y="677.16" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="246.5" y="677.16" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="286.5" y="644.588" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="326.5" y="644.588" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="366.5" y="649" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="406.5" y="649" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="446.5" y="670.189" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="486.5" y="670.189" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="526.5" y="636.458" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="566.5" y="636.458" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="606.5" y="616.755" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="646.5" y="616.755" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="686.5" y="597.468" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="726.5" y="597.468" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 637.105h40L130 705h40l40-24.34h40l40-32.572h40l40 4.412h40l40 21.19h40l40-33.732h40l40-19.703h40l40-19.287h40" id="scores-history-linegraph-73553-A" stroke="#b2bb1e" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73553-A&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73553-A&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73553-B">
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="46.5" y="667.553" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="86.5" y="667.553" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="126.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="166.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="206.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="246.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="286.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="326.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="366.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="406.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="446.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="486.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="526.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="566.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="606.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="646.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="686.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#b2bb1e" stroke="#b2bb1e" class="chart-node" x="726.5" y="701.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 671.053h40L130 705h600" id="scores-history-linegraph-73553-B" stroke="#b2bb1e" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73553-B&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73553-B&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73554-A">
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="46.5" y="260.184" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="86.5" y="260.184" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="126.5" y="341.059" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="166.5" y="341.059" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="206.5" y="421.594" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="246.5" y="421.594" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="286.5" y="426.426" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="326.5" y="426.426" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="366.5" y="424" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="406.5" y="424" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="446.5" y="425.966" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="486.5" y="425.966" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="526.5" y="419.651" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="566.5" y="419.651" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="606.5" y="386.062" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="646.5" y="386.062" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="686.5" y="410.21" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="726.5" y="410.21" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 263.684h40l40 80.875h40l40 80.535h40l40 4.832h40l40-2.426h40l40 1.966h40l40-6.315h40l40-33.589h40l40 24.148h40" id="scores-history-linegraph-73554-A" stroke="#d31145" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73554-A&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73554-A&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73554-B">
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="46.5" y="463.868" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="86.5" y="463.868" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="126.5" y="625.618" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="166.5" y="625.618" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="206.5" y="640.651" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="246.5" y="640.651" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="286.5" y="625.618" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="326.5" y="625.618" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="366.5" y="589" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="406.5" y="589" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="446.5" y="557.471" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="486.5" y="557.471" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="526.5" y="565.996" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="566.5" y="565.996" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="606.5" y="574.383" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="646.5" y="574.383" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="686.5" y="568.339" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#d31145" stroke="#d31145" class="chart-node" x="726.5" y="568.339" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 467.368h40l40 161.75h40l40 15.033h40l40-15.033h40l40-36.618h40l40-31.53h40l40 8.526h40l40 8.387h40l40-6.044h40" id="scores-history-linegraph-73554-B" stroke="#d31145" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73554-B&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73554-B&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73555-A">
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="46.5" y="124.395" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="86.5" y="124.395" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="126.5" y="189.294" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="166.5" y="189.294" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="206.5" y="251.217" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="246.5" y="251.217" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="286.5" y="227.235" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="326.5" y="227.235" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="366.5" y="281.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="406.5" y="281.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="446.5" y="288.199" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="486.5" y="288.199" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="526.5" y="294.987" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="566.5" y="294.987" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="606.5" y="306.026" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="646.5" y="306.026" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="686.5" y="302.016" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="726.5" y="302.016" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 127.895h40l40 64.9h40l40 61.922h40l40-23.982h40L370 285h40l40 6.699h40l40 6.788h40l40 11.039h40l40-4.01h40" id="scores-history-linegraph-73555-A" stroke="#3b9bb9" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73555-A&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73555-A&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73555-B">
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="46.5" y="531.763" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="86.5" y="531.763" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="126.5" y="530.765" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="166.5" y="530.765" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="206.5" y="421.594" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="246.5" y="421.594" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="286.5" y="388.485" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="326.5" y="388.485" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="366.5" y="416.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="406.5" y="416.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="446.5" y="451.015" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="486.5" y="451.015" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="526.5" y="463.013" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="566.5" y="463.013" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="606.5" y="470.807" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="646.5" y="470.807" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="686.5" y="489.274" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#3b9bb9" stroke="#3b9bb9" class="chart-node" x="726.5" y="489.274" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 535.263h40l40-.998h40l40-109.17h40l40-33.11h40L370 420h40l40 34.515h40l40 11.998h40l40 7.794h40l40 18.467h40" id="scores-history-linegraph-73555-B" stroke="#3b9bb9" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73555-B&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73555-B&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73556-A">
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="46.5" y="328.079" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="86.5" y="328.079" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="126.5" y="341.059" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="166.5" y="341.059" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="206.5" y="263.387" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="246.5" y="263.387" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="286.5" y="189.294" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="326.5" y="189.294" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="366.5" y="176.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="406.5" y="176.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="446.5" y="181.743" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="486.5" y="181.743" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="526.5" y="159.483" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="566.5" y="159.483" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="606.5" y="174.201" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="646.5" y="174.201" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="686.5" y="181.339" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="726.5" y="181.339" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 331.579h40l40 12.98h40l40-77.672h40l40-74.093h40L370 180h40l40 5.243h40l40-22.26h40l40 14.718h40l40 7.138h40" id="scores-history-linegraph-73556-A" stroke="#f58025" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73556-A&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73556-A&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73556-B">
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="46.5" y="362.026" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="86.5" y="362.026" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="126.5" y="379" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="166.5" y="379" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="206.5" y="275.557" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="246.5" y="275.557" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="286.5" y="208.265" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="326.5" y="208.265" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="366.5" y="184" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="406.5" y="184" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="446.5" y="181.743" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="486.5" y="181.743" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="526.5" y="219.105" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="566.5" y="219.105" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="606.5" y="207.157" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="646.5" y="207.157" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="686.5" y="197.984" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#f58025" stroke="#f58025" class="chart-node" x="726.5" y="197.984" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 365.526h40l40 16.974h40l40-103.443h40l40-67.292h40l40-24.265h40l40-2.257h40l40 37.362h40l40-11.948h40l40-9.173h40" id="scores-history-linegraph-73556-B" stroke="#f58025" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73556-B&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73556-B&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73557-A">
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="46.5" y="192.289" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="86.5" y="192.289" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="126.5" y="151.353" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="166.5" y="151.353" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="206.5" y="202.538" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="246.5" y="202.538" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="286.5" y="246.206" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="326.5" y="246.206" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="366.5" y="236.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="406.5" y="236.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="446.5" y="244.364" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="486.5" y="244.364" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="526.5" y="208.265" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="566.5" y="208.265" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="606.5" y="183.617" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="646.5" y="183.617" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="686.5" y="173.016" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="726.5" y="173.016" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 195.79h40l40-40.937h40l40 51.185h40l40 43.668h40L370 240h40l40 7.864h40l40-36.1h40l40-24.647h40l40-10.6h40" id="scores-history-linegraph-73557-A" stroke="#8177b7" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73557-A&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73557-A&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73557-B">
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="46.5" y="497.816" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="86.5" y="497.816" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="126.5" y="341.059" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="166.5" y="341.059" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="206.5" y="287.726" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="246.5" y="287.726" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="286.5" y="246.206" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="326.5" y="246.206" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="366.5" y="266.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="406.5" y="266.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="446.5" y="244.364" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="486.5" y="244.364" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="526.5" y="229.945" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="566.5" y="229.945" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="606.5" y="211.865" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="646.5" y="211.865" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="686.5" y="189.661" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#8177b7" stroke="#8177b7" class="chart-node" x="726.5" y="189.661" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 501.316h40l40-156.757h40l40-53.333h40l40-41.52h40L370 270h40l40-22.136h40l40-14.419h40l40-18.08h40l40-22.204h40" id="scores-history-linegraph-73557-B" stroke="#8177b7" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73557-B&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73557-B&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73558-A">
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="46.5" y="599.658" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="86.5" y="599.658" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="126.5" y="549.735" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="166.5" y="549.735" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="206.5" y="531.123" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="246.5" y="531.123" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="286.5" y="578.191" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="326.5" y="578.191" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="366.5" y="521.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="406.5" y="521.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="446.5" y="526.16" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="486.5" y="526.16" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="526.5" y="495.534" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="566.5" y="495.534" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="606.5" y="503.763" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="646.5" y="503.763" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="686.5" y="493.435" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="726.5" y="493.435" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 603.158h40l40-49.923h40l40-18.612h40l40 47.068h40L370 525h40l40 4.66h40l40-30.626h40l40 8.229h40l40-10.328h40" id="scores-history-linegraph-73558-A" stroke="#00b085" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73558-A&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73558-A&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73558-B">
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="46.5" y="429.921" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="86.5" y="429.921" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="126.5" y="549.735" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="166.5" y="549.735" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="206.5" y="470.274" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="246.5" y="470.274" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="286.5" y="511.794" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="326.5" y="511.794" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="366.5" y="529" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="406.5" y="529" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="446.5" y="526.16" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="486.5" y="526.16" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="526.5" y="490.113" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="566.5" y="490.113" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="606.5" y="470.807" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="646.5" y="470.807" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="686.5" y="460.145" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#00b085" stroke="#00b085" class="chart-node" x="726.5" y="460.145" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 433.421h40l40 119.814h40l40-79.461h40l40 41.52h40l40 17.206h40l40-2.84h40l40-36.047h40l40-19.306h40l40-10.662h40" id="scores-history-linegraph-73558-B" stroke="#00b085" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73558-B&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73558-B&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73559-A">
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="46.5" y="90.447" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="86.5" y="90.447" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="126.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="166.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="206.5" y="93.009" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="246.5" y="93.009" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="286.5" y="113.412" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="326.5" y="113.412" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="366.5" y="94" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="406.5" y="94" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="446.5" y="119.121" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="486.5" y="119.121" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="526.5" y="94.441" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="566.5" y="94.441" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="606.5" y="108.288" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="646.5" y="108.288" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="686.5" y="114.758" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="726.5" y="114.758" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 93.947h40L130 60h40l40 36.51h40l40 20.402h40L370 97.5h40l40 25.121h40l40-24.68h40l40 13.847h40l40 6.47h40" id="scores-history-linegraph-73559-A" stroke="#bb8c0a" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73559-A&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73559-A&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73559-B">
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="46.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="86.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="126.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="166.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="206.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="246.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="286.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="326.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="366.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="406.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="446.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="486.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="526.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="566.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="606.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="646.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="686.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#bb8c0a" stroke="#bb8c0a" class="chart-node" x="726.5" y="56.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 60h680" id="scores-history-linegraph-73559-B" stroke="#bb8c0a" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73559-B&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73559-B&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73560-A">
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="46.5" y="158.342" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="86.5" y="158.342" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="126.5" y="360.029" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="166.5" y="360.029" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="206.5" y="445.934" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="246.5" y="445.934" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="286.5" y="350.544" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="326.5" y="350.544" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="366.5" y="311.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="406.5" y="311.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="446.5" y="275.675" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="486.5" y="275.675" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="526.5" y="267.887" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="566.5" y="267.887" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="606.5" y="287.193" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="646.5" y="287.193" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="686.5" y="293.694" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="726.5" y="293.694" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 161.842h40l40 201.687h40l40 85.905h40l40-95.39h40L370 315h40l40-35.825h40l40-7.788h40l40 19.306h40l40 6.5h40" id="scores-history-linegraph-73560-A" stroke="#98002e" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73560-A&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73560-A&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73560-B">
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="46.5" y="565.711" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="86.5" y="565.711" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="126.5" y="454.882" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="166.5" y="454.882" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="206.5" y="458.104" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="246.5" y="458.104" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="286.5" y="435.912" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="326.5" y="435.912" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="366.5" y="394" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="406.5" y="394" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="446.5" y="388.393" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="486.5" y="388.393" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="526.5" y="360.029" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="566.5" y="360.029" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="606.5" y="371.938" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="646.5" y="371.938" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="686.5" y="364.435" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#98002e" stroke="#98002e" class="chart-node" x="726.5" y="364.435" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 569.21h40l40-110.828h40l40 3.222h40l40-22.192h40l40-41.912h40l40-5.607h40l40-28.364h40l40 11.909h40l40-7.503h40" id="scores-history-linegraph-73560-B" stroke="#98002e" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73560-B&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73560-B&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73561-A">
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="46.5" y="294.132" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="86.5" y="294.132" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="126.5" y="454.882" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="166.5" y="454.882" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="206.5" y="433.764" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="246.5" y="433.764" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="286.5" y="388.485" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="326.5" y="388.485" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="366.5" y="424" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="406.5" y="424" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="446.5" y="463.539" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="486.5" y="463.539" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="526.5" y="468.433" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="566.5" y="468.433" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="606.5" y="437.85" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="646.5" y="437.85" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="686.5" y="443.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="726.5" y="443.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 297.632h40l40 160.75h40l40-21.118h40l40-45.279h40l40 35.515h40l40 39.539h40l40 4.894h40l40-30.583h40l40 5.65h40" id="scores-history-linegraph-73561-A" stroke="#06347a" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73561-A&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73561-A&quot;)"/>
+    </g>
+    <g class="linegraph-group" id="scores-history-series-73561-B">
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="46.5" y="395.974" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="86.5" y="395.974" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="126.5" y="473.853" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="166.5" y="473.853" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="206.5" y="397.255" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="246.5" y="397.255" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="286.5" y="379" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="326.5" y="379" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="366.5" y="431.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="406.5" y="431.5" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="446.5" y="482.325" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="486.5" y="482.325" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="526.5" y="495.534" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="566.5" y="495.534" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="606.5" y="517.887" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="646.5" y="517.887" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="686.5" y="535.048" width="7" height="7" rx="3.5" ry="3.5"/>
+      <rect fill="#06347a" stroke="#06347a" class="chart-node" x="726.5" y="535.048" width="7" height="7" rx="3.5" ry="3.5"/>
+      <path d="M50 399.474h40l40 77.879h40l40-76.598h40l40-18.255h40l40 52.5h40l40 50.825h40l40 13.209h40l40 22.353h40l40 17.161h40" id="scores-history-linegraph-73561-B" stroke="#06347a" fill="none" class="chart-line" onmouseover="highlight(&quot;scores-history-team-73561-B&quot;)" onmouseout="unhighlight(&quot;scores-history-team-73561-B&quot;)"/>
+    </g>
+  </g>
+</svg>

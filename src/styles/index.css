@@ -1,0 +1,66 @@
+.content{
+    margin: 10px;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.search-chip {
+    display: inline-flex;
+    padding: 0 12.5px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 12.5px;
+    background-color: #f1f1f1;
+  }
+  
+div.card-image img.activator {
+    width: 250px; 
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* makes checkboxes have two columns */
+.row {
+  display: flex;
+}
+
+nav {
+  color: #fff;
+  padding:5px;
+  background-color: #0d47a1;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+}
+
+#bookmarkModal {
+  width: 98%;
+  max-width: 100%;
+  height: 80%;
+  max-height: 100%;
+  /* background-color: red; /* Obvious color to see if the style is applied */
+  border: 5px solid rgb(48, 48, 159); 
+}
+
+/**** Bookmark modal css (for both halves ****/
+#bkModalContentsvg {
+  position: fixed;
+  top: 10%; /* Adjust this value as needed */
+  left: 0;
+  height: 80%; /* This could be the height of your modal */
+  overflow: hidden; /* Ensure no scrolling */
+}
+
+#json-display {
+  height: 80%; /* Adjust based on the modal height */
+  overflow-y: auto; /* This will allow independent scrolling */
+}
+
+  
