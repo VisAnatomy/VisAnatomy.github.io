@@ -1,5 +1,5 @@
 export default {
-  base: "/VisAnatomy.github.io/",
+  base: "/",
   // Uncomment if you need to specify these
   // root: 'src',
   // build: {
