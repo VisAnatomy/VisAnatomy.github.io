@@ -2,13 +2,12 @@
 // left side will contain the checkboxes for every tag
 // right side will display a quick pre-image for the charts
 
-// Splits up the screen into two portions for the faceted browising nav and the image grid displays 
+// Splits up the screen into two portions for the faceted browising nav and the image grid displays
 
-export function addPageBody(){
+export function addPageBody() {
+  const bodyDiv = document.getElementById("pagebody");
 
-    const bodyDiv = document.getElementById('pagebody');
-
-    bodyDiv.innerHTML = `
+  bodyDiv.innerHTML = `
 
     <!-- actual page content -->
 <div class="content">
@@ -120,7 +119,7 @@ export function addPageBody(){
                                             
                                             <p>
                                                 <label>
-                                                <input type="checkbox" name="diverging" value="diverging" />
+                                                <input type="checkbox" name="donut" value="donut" />
                                                 <span>Donut Chart</span>
                                                 </label>
                                             </p>
@@ -376,5 +375,5 @@ export function addPageBody(){
     var userdetails= {{data|tojson}}
 </script> -->
 
-    `
+    `;
 }

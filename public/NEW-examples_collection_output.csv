@@ -51,10 +51,9 @@ Bar Chart,21,bar,https://smltar.com/04_stemming_files/figure-html/lemmafirtree-1
 Bar Chart,22,bar,https://ourworldindata.org/grapher/gini-coefficient-world-bank-marimekko
 Bar Chart,23,bar,https://demo1.wow-extensions.com/WowChart-v3/column-drilldown
 Bar Chart,24,bar,https://aeturrell.github.io/python4DS/exploratory-data-analysis.html
-Bar Chart,25,bar,https://kotlin.github.io/kandy/kandy/guideHistogramConfiguredHistPlot.svg
+Bar Chart,25,bar,https://www.urban.org/features/11-charts-about-social-security-disability-insurance-program
 Bar Chart,26,bar,https://ourworldindata.org/grapher/estimated-prevalence-vs-burden-mental-illnesses
 Bar Chart,27,bar,https://ourworldindata.org/grapher/burden-of-disease-by-cause
-Bar Chart,28,bar,https://www.urban.org/features/11-charts-about-social-security-disability-insurance-program
 Bar Chart in Radial Layout,1,barinradial,https://agill.xyz/research/haiku/analysis/colors
 Bar Chart in Radial Layout,2,barinradial,https://observablehq.com/@d3/radial-stacked-bar-chart
 Bar Chart in Radial Layout,3,barinradial,https://observablehq.com/@s0rta/radial-bar-chart-proof-of-conecpt
@@ -451,13 +450,11 @@ Heatmap,17,heatmap,https://commons.wikimedia.org/wiki/File:Heat_map_showing_the_
 Heatmap,18,heatmap,https://discourse.ladybug.tools/t/sharing-the-process-of-generating-an-svg-image-from-a-heatmap/21785
 Heatmap,19,heatmap,https://commons.wikimedia.org/wiki/File:Feature-table-heatmap.svg
 Heatmap,20,heatmap,https://wiki.q-researchsoftware.com/wiki/Visualization_-_Heatmap_-_Heatmap
-Heatmap,21,heatmap,https://aeturrell.github.io/coding-for-economists/_images/1b632f1b8e8305a024375644d0c4e742fc88aa752abc1e167bc9a95016be41bd.svg
+Heatmap,22,heatmap,https://cdn-dfnaj.nitrocdn.com/xxeFXDnBIOflfPsgwjDLywIQwPChAOzV/assets/images/source/rev-630e2e6/www.displayr.com/wp-content/uploads/2022/08/Heat_Map_Maker_Displayr_Flexible.svg
 Heatmap,22,heatmap,https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/articles/howpopularisyourbirthday/2015-12-18
 Heatmap,23,heatmap,https://smltar.com/08_dl_dnn_files/figure-html/kickstarterheatmap-1.svg
 Heatmap,24,heatmap,https://mlcourse.ai/_images/c56a0384039be07ec5c62ff6e2907c49748f3ed9c97bd87d5cefe7e3c2949453.svg
-Heatmap,25,heatmap,https://www.telerik.com/kendo-angular-ui/components/charts/series-types/heatmap/
-Heatmap,26,heatmap,https://cdn-dfnaj.nitrocdn.com/xxeFXDnBIOflfPsgwjDLywIQwPChAOzV/assets/images/source/rev-630e2e6/www.displayr.com/wp-content/uploads/2022/08/Heat_Map_Maker_Displayr_Flexible.svg
-Heatmap,27,heatmap,https://www.highcharts.com/demo/highcharts/heatmap
+Heatmap,25,heatmap,https://www.highcharts.com/demo/highcharts/heatmap
 Kagi Chart,1,kagi,https://arpitnarechania.github.io/d3-kagi/
 Kagi Chart,2,kagi,https://datavizcatalogue.com/methods/kagi_chart.html
 Kagi Chart,3,kagi,https://diagrammm.com/kagi_chart
@@ -776,7 +773,7 @@ Stacked Bar Chart,10,stacked-bar,https://observablehq.com/@d3/stacked-bar-chart
 Stacked Bar Chart,11,stacked-bar,https://apexcharts.com/javascript-chart-demos/column-charts/stacked/
 Stacked Bar Chart,12,stacked-bar,https://apexcharts.com/javascript-chart-demos/bar-charts/stacked/
 Stacked Bar Chart,13,stacked-bar,https://developers.google.com/earth-engine/guides/charts_image
-Stacked Bar Chart,14,stacked-bar,https://upload.wikimedia.org/wikipedia/commons/6/6d/Charts_SVG_Example_9_-_Stacked_Bar_Chart.svg
+Stacked Bar Chart,14,stacked-bar,https://gist.githubusercontent.com/peterbsmyth/raw/005ed081c4b654ad04ce/?raw=true
 Stacked Bar Chart,15,stacked-bar,https://ourworldindata.org/grapher/financial-contributions-toward-polio-eradication
 Stacked Bar Chart,16,stacked-bar,https://ourworldindata.org/grapher/adoption-of-new-icd-guidelines-who-mortality-database
 Stacked Bar Chart,17,stacked-bar,https://ourworldindata.org/grapher/depressive-symptoms-across-us-population
@@ -788,7 +785,6 @@ Stacked Bar Chart,22,stacked-bar,https://nivo.rocks/storybook/?path=/story/bar--
 Stacked Bar Chart,23,stacked-bar,https://smltar.com/07_ml_classification_files/figure-html/trigram25-1.svg
 Stacked Bar Chart,24,stacked-bar,https://www.brettkobold.com/wp-content/uploads/2016/10/carMakeBar.svg
 Stacked Bar Chart,25,stacked-bar,https://ourworldindata.org/grapher/nuclear-weapons-proliferation
-Stacked Bar Chart,26,stacked-bar,https://gist.githubusercontent.com/peterbsmyth/raw/005ed081c4b654ad04ce/?raw=true
 Stream Graph,1,stream,https://insights.datylon.com/stories/mYTOaOfgUWal7LFDN3VAlQ
 Stream Graph,2,stream,https://insights.datylon.com/stories/ntmFCLHAVy454T6t8NFA-A
 Stream Graph,3,stream,https://plotdb.com/chart/1038/
