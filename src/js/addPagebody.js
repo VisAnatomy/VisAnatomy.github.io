@@ -27,7 +27,7 @@ export function addPageBody() {
                 <form action="#" id="facetedbrowsingform">
                     <div class="criteriagroup">
                         <ul class="collapsible">
-                            <!-- Visualization elements -->
+                            <!-- 40 Chart Types -->
                             <li class="active">
                                 <div class="collapsible-header">Visualization Elements</div>
                                 <div class="collapsible-body">
