@@ -74,31 +74,31 @@ Bar Chart in Radial Layout,17,barinradial,https://observablehq.com/@cristiancs/m
 Bar Chart in Radial Layout,18,barinradial,https://observablehq.com/@monicagg/uk-raindays-radial-stacked-bar-chart
 Bar Chart in Radial Layout,19,barinradial,https://observablehq.com/@yieldtactics/radial-stacked-bar-chart
 Bar Chart in Radial Layout,20,barinradial,https://observablehq.com/@thetylerwolf/day-17-radial-bar-chart
-Box-and-whisker plot,1,BoxAndWhisker,https://www.nagwa.com/en/explainers/812192146073/
-Box-and-whisker plot,2,BoxAndWhisker,https://apexcharts.com/wp-content/uploads/2021/02/basic-boxplot.svg
-Box-and-whisker plot,3,BoxAndWhisker,https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/box-whisker-plots/a/box-plot-review
-Box-and-whisker plot,4,BoxAndWhisker,https://www.codecademy.com/learn/stats-associations-between-variables/modules/stats-associations-between-variables/cheatsheet
-Box-and-whisker plot,5,BoxAndWhisker,https://apexcharts.com/wp-content/uploads/2021/02/horizontal-boxplot.svg
-Box-and-whisker plot,6,BoxAndWhisker,https://alex-hhh.github.io/2021/04/box-and-whiskers-plot.html
-Box-and-whisker plot,7,BoxAndWhisker,https://observablehq.com/@d3/box-plot
-Box-and-whisker plot,8,BoxAndWhisker,https://observablehq.com/@mukhtyar/box-plot
-Box-and-whisker plot,9,BoxAndWhisker,https://vega.github.io/vega-lite/examples/boxplot_minmax_2D_vertical.html
-Box-and-whisker plot,10,BoxAndWhisker,https://data-illustrator.cs.umd.edu/app/index.html?project=few_box_plot
-Box-and-whisker plot,11,BoxAndWhisker,https://bookdown.org/max/FES/stroke-exploration.html
-Box-and-whisker plot,12,BoxAndWhisker,https://www.ixl.com/math/lessons/box-and-whisker-plots
-Box-and-whisker plot,13,BoxAndWhisker,https://en.wikipedia.org/wiki/Box_plot
-Box-and-whisker plot,14,BoxAndWhisker,https://www.jaspersoft.com/articles/what-is-a-box-plot
-Box-and-whisker plot,15,BoxAndWhisker,https://mathleaks.com/study/big-ideas-math-algebra-1-2015/11-box-and-whisker-plots/596-4
-Box-and-whisker plot,16,BoxAndWhisker,https://lsj.readthedocs.io/no/latest/Ch05/Ch05_Graphics_2.html
-Box-and-whisker plot,17,BoxAndWhisker,https://apexcharts.com/docs/chart-types/boxplot/
-Box-and-whisker plot,18,BoxAndWhisker,https://www.baeldung.com/cs/latex-draw-charts
-Box-and-whisker plot,19,BoxAndWhisker,https://commons.wikimedia.org/wiki/File:Boxplot_of_Average_Article_Feedback_ratings_by_project_rated_quality.svg
-Box-and-whisker plot,20,BoxAndWhisker,https://ilias.uni-marburg.de/data/UNIMR/lm_data/lm_2092231/box-and-whisker-plots-lattice.html
-Box-and-whisker plot,21,BoxAndWhisker,https://nivo.rocks/storybook/?path=/story/boxplot--basic
-Box-and-whisker plot,22,BoxAndWhisker,https://nivo.rocks/storybook/?path=/story/boxplot--grouped-horizontal
-Box-and-whisker plot,23,BoxAndWhisker,https://developer.mescius.com/wijmo/demos/Chart/Special/BoxWhisker
-Box-and-whisker plot,24,BoxAndWhisker,https://smltar.com/02_tokenization_files/figure-html/tokendists-1.svg
-Box-and-whisker plot,25,BoxAndWhisker,https://semiotic.nteract.io/guides/ordinal-summaries
+BoxAndWhisker,1,BoxAndWhisker,https://www.nagwa.com/en/explainers/812192146073/
+BoxAndWhisker,2,BoxAndWhisker,https://apexcharts.com/wp-content/uploads/2021/02/basic-boxplot.svg
+BoxAndWhisker,3,BoxAndWhisker,https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/box-whisker-plots/a/box-plot-review
+BoxAndWhisker,4,BoxAndWhisker,https://www.codecademy.com/learn/stats-associations-between-variables/modules/stats-associations-between-variables/cheatsheet
+BoxAndWhisker,5,BoxAndWhisker,https://apexcharts.com/wp-content/uploads/2021/02/horizontal-boxplot.svg
+BoxAndWhisker,6,BoxAndWhisker,https://alex-hhh.github.io/2021/04/box-and-whiskers-plot.html
+BoxAndWhisker,7,BoxAndWhisker,https://observablehq.com/@d3/box-plot
+BoxAndWhisker,8,BoxAndWhisker,https://observablehq.com/@mukhtyar/box-plot
+BoxAndWhisker,9,BoxAndWhisker,https://vega.github.io/vega-lite/examples/boxplot_minmax_2D_vertical.html
+BoxAndWhisker,10,BoxAndWhisker,https://data-illustrator.cs.umd.edu/app/index.html?project=few_box_plot
+BoxAndWhisker,11,BoxAndWhisker,https://bookdown.org/max/FES/stroke-exploration.html
+BoxAndWhisker,12,BoxAndWhisker,https://www.ixl.com/math/lessons/box-and-whisker-plots
+BoxAndWhisker,13,BoxAndWhisker,https://en.wikipedia.org/wiki/Box_plot
+BoxAndWhisker,14,BoxAndWhisker,https://www.jaspersoft.com/articles/what-is-a-box-plot
+BoxAndWhisker,15,BoxAndWhisker,https://mathleaks.com/study/big-ideas-math-algebra-1-2015/11-box-and-whisker-plots/596-4
+BoxAndWhisker,16,BoxAndWhisker,https://lsj.readthedocs.io/no/latest/Ch05/Ch05_Graphics_2.html
+BoxAndWhisker,17,BoxAndWhisker,https://apexcharts.com/docs/chart-types/boxplot/
+BoxAndWhisker,18,BoxAndWhisker,https://www.baeldung.com/cs/latex-draw-charts
+BoxAndWhisker,19,BoxAndWhisker,https://commons.wikimedia.org/wiki/File:Boxplot_of_Average_Article_Feedback_ratings_by_project_rated_quality.svg
+BoxAndWhisker,20,BoxAndWhisker,https://ilias.uni-marburg.de/data/UNIMR/lm_data/lm_2092231/box-and-whisker-plots-lattice.html
+BoxAndWhisker,21,BoxAndWhisker,https://nivo.rocks/storybook/?path=/story/boxplot--basic
+BoxAndWhisker,22,BoxAndWhisker,https://nivo.rocks/storybook/?path=/story/boxplot--grouped-horizontal
+BoxAndWhisker,23,BoxAndWhisker,https://developer.mescius.com/wijmo/demos/Chart/Special/BoxWhisker
+BoxAndWhisker,24,BoxAndWhisker,https://smltar.com/02_tokenization_files/figure-html/tokendists-1.svg
+BoxAndWhisker,25,BoxAndWhisker,https://semiotic.nteract.io/guides/ordinal-summaries
 Bubble Chart,1,bubble,https://insights.datylon.com/stories/qS11V4CyLM1etV1Q925FOg
 Bubble Chart,2,bubble,https://insights.datylon.com/stories/jVPwg1Q_CeguvLAxY4VJKw
 Bubble Chart,3,bubble,https://apexcharts.com/javascript-chart-demos/bubble-charts/simple/
