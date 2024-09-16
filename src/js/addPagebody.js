@@ -29,7 +29,7 @@ export function addPageBody() {
                         <ul class="collapsible">
                             <!-- 40 Chart Types -->
                             <li class="active">
-                                <div class="collapsible-header">Visualization Elements</div>
+                                <div class="collapsible-header">40 Chart Types</div>
                                 <div class="collapsible-body">
                                     <div class="row">
                                         <div class="cols6">
