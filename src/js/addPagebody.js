@@ -151,8 +151,7 @@ export function addPageBody() {
                                                 <span>Grouped Bar Chart</span>
                                                 </label>
                                             </p>
-                                        </div>
-                                        <div class="col s6">
+
                                             <p>
                                                 <label>
                                                     <input type="checkbox" name="heatmap" value="heatmap" />
@@ -166,6 +165,8 @@ export function addPageBody() {
                                                     <span>Kagi Chart</span>
                                                 </label>
                                             </p>
+                                        </div>
+                                        <div class="col s6">
                                                 
                                             <p>
                                                 <label>
@@ -303,7 +304,7 @@ export function addPageBody() {
                                             <p>
                                                 <label>
                                                 <input type="checkbox" name="_bespoke" value="_bespoke" />
-                                                <span>Composite</span>
+                                                <span>Others</span>
                                                 </label>
                                             </p>
                                         </div>
