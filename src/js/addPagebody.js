@@ -35,15 +35,99 @@ export function addPageBody() {
                                         <div class="cols6">
                                             <p>
                                                 <label>
-                                                    <input type="checkbox" name="line" value="line" />
-                                                    <span>Line Graph</span>
+                                                    <input type="checkbox" name="area" value="area" />
+                                                    <span>Area Chart</span>
                                                 </label>
                                             </p>
-
+                                            
                                             <p>
                                                 <label>
                                                 <input type="checkbox" name="bar" value="bar" />
                                                 <span>Bar Chart</span>
+                                                </label>
+                                            </p>
+                    
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="BoxAndWhisker" value="BoxAndWhisker" />
+                                                <span>Box and Whisker Plot</span>
+                                                </label>
+                                            </p>
+                    
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="bubble" value="bubble" />
+                                                <span>Bubble Chart</span>
+                                                </label>
+                                            </p>
+                    
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="bullet" value="bullet" />
+                                                <span>Bullet Chart</span>
+                                                </label>
+                                            </p>
+                    
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="bump" value="bump" />
+                                                <span>Bump Chart</span>
+                                                </label>
+                                            </p>
+                    
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="calendar" value="calendar" />
+                                                <span>Calendar</span>
+                                                </label>
+                                            </p>
+                    
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="candlestick" value="candlestick" />
+                                                <span>Candlestick Chart</span>
+                                                </label>
+                                            </p>
+                    
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="circle" value="circle" />
+                                                <span>Circle Packing</span>
+                                                </label>
+                                            </p>
+                    
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="connected" value="connected" />
+                                                <span>Connected Dot Plot</span>
+                                                </label>
+                                            </p>
+                    
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="connectedsp" value="connectedsp" />
+                                                <span>Connected Scatterplot</span>
+                                                </label>
+                                            </p>
+                    
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="density" value="density" />
+                                                <span>Density Plot</span>
+                                                </label>
+                                            </p>
+                    
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="diverging" value="diverging" />
+                                                <span>Diverging Stacked Bar Chart</span>
+                                                </label>
+                                            </p>
+                    
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="donut" value="donut" />
+                                                <span>Donut Chart</span>
                                                 </label>
                                             </p>
                     
@@ -56,8 +140,8 @@ export function addPageBody() {
                     
                                             <p>
                                                 <label>
-                                                <input type="checkbox" name="marimekko" value="marimekko" />
-                                                <span>Marimekko Chart</span>
+                                                <input type="checkbox" name="geo" value="geo" />
+                                                <span>Geo Heatmap</span>
                                                 </label>
                                             </p>
                     
@@ -67,138 +151,33 @@ export function addPageBody() {
                                                 <span>Grouped Bar Chart</span>
                                                 </label>
                                             </p>
-                    
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="pie" value="pie" />
-                                                <span>Pie Chart</span>
-                                                </label>
-                                            </p>
-
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="stacked-bar" value="stacked-bar" />
-                                                <span>Stacked Bar Chart</span>
-                                                </label>
-                                            </p>
-
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="waterfall" value="waterfall" />
-                                                <span>Waterfall Chart</span>
-                                                </label>
-                                            </p>
-
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="scatterplot" value="scatterplot" />
-                                                <span>Scatterplot</span>
-                                                </label>
-                                            </p>
-
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="connectedsp" value="connectedsp" />
-                                                <span>Connected Scatterplot</span>
-                                                </label>
-                                            </p>
-                                            
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="diverging" value="diverging" />
-                                                <span>Diverging Stacked Bar Chart</span>
-                                                </label>
-                                            </p>
-                                            
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="waffle" value="waffle" />
-                                                <span>Waffle Chart</span>
-                                                </label>
-                                            </p>
-                                            
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="donut" value="donut" />
-                                                <span>Donut Chart</span>
-                                                </label>
-                                            </p>
-                                            
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="treemap" value="treemap" />
-                                                <span>Treemap</span>
-                                                </label>
-                                            </p>
-                                            
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="area" value="area" />
-                                                <span>Area Chart</span>
-                                                </label>
-                                            </p>
-                                            
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="bubble" value="bubble" />
-                                                <span>Bubble Chart</span>
-                                                </label>
-                                            </p>
-                                            
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="stacked" value="stacked" />
-                                                <span>Stacked Area Chart</span>
-                                                </label>
-                                            </p>
-                                            
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="calendar" value="calendar" />
-                                                <span>Calendar</span>
-                                                </label>
-                                            </p>
-                                            
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="density" value="density" />
-                                                <span>Density Plot</span>
-                                                </label>
-                                            </p>
-                                            
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="circle" value="circle" />
-                                                <span>Circle Packing</span>
-                                                </label>
-                                            </p>
-                                            
-                                            <p>
-                                                <label>
-                                                <input type="checkbox" name="connected" value="connected" />
-                                                <span>Connected Dot Plot</span>
-                                                </label>
-                                            </p>
                                         </div>
                                         <div class="col s6">
                                             <p>
                                                 <label>
-                                                    <input type="checkbox" name="polar" value="polar" />
-                                                    <span>Polar Area Chart</span>
+                                                    <input type="checkbox" name="heatmap" value="heatmap" />
+                                                    <span>Heatmap</span>
                                                 </label>
                                             </p>
                                             
                                             <p>
                                                 <label>
-                                                    <input type="checkbox" name="radial" value="radial" />
-                                                    <span>Radial Bar Chart</span>
+                                                    <input type="checkbox" name="kagi" value="kagi" />
+                                                    <span>Kagi Chart</span>
                                                 </label>
                                             </p>
                                                 
                                             <p>
                                                 <label>
-                                                    <input type="checkbox" name="radar" value="radar" />
-                                                    <span>Radar Chart</span>
+                                                    <input type="checkbox" name="line" value="line" />
+                                                    <span>Line Graph</span>
+                                                </label>
+                                            </p>
+                                                
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" name="marimekko" value="marimekko" />
+                                                    <span>Marimekko Chart</span>
                                                 </label>
                                             </p>
                                                 
@@ -211,27 +190,6 @@ export function addPageBody() {
                                                 
                                             <p>
                                                 <label>
-                                                    <input type="checkbox" name="BoxAndWhisker" value="BoxAndWhisker" />
-                                                    <span>Box and Whisker Plot</span>
-                                                </label>
-                                            </p>
-                                                
-                                            <p>
-                                                <label>
-                                                    <input type="checkbox" name="candlestick" value="candlestick" />
-                                                    <span>Candlestick Chart</span>
-                                                </label>
-                                            </p>
-                                                
-                                            <p>
-                                                <label>
-                                                    <input type="checkbox" name="stream" value="stream" />
-                                                    <span>Stream Graph</span>
-                                                </label>
-                                            </p>
-                                                
-                                            <p>
-                                                <label>
                                                     <input type="checkbox" name="parallel" value="parallel" />
                                                     <span>Parallel Coordinates Plot</span>
                                                 </label>
@@ -239,22 +197,29 @@ export function addPageBody() {
                                                 
                                             <p>
                                                 <label>
-                                                    <input type="checkbox" name="kagi" value="kagi" />
-                                                    <span>Kagi Chart</span>
+                                                    <input type="checkbox" name="pie" value="pie" />
+                                                    <span>Pie Chart</span>
                                                 </label>
                                             </p>
                                                 
                                             <p>
                                                 <label>
-                                                    <input type="checkbox" name="spiral" value="spiral" />
-                                                    <span>Spiral Plot</span>
+                                                    <input type="checkbox" name="polar" value="polar" />
+                                                    <span>Polar Area Chart</span>
                                                 </label>
                                             </p>
                                                 
                                             <p>
                                                 <label>
-                                                    <input type="checkbox" name="bullet" value="bullet" />
-                                                    <span>Bullet Chart</span>
+                                                    <input type="checkbox" name="radar" value="radar" />
+                                                    <span>Radar Chart</span>
+                                                </label>
+                                            </p>
+                                                
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" name="radial" value="radial" />
+                                                    <span>Radial Bar Chart</span>
                                                 </label>
                                             </p>
                                                 
@@ -267,15 +232,43 @@ export function addPageBody() {
                                                 
                                             <p>
                                                 <label>
-                                                    <input type="checkbox" name="heatmap" value="heatmap" />
-                                                    <span>Heatmap</span>
+                                                    <input type="checkbox" name="scatterplot" value="scatterplot" />
+                                                    <span>Scatterplot</span>
                                                 </label>
                                             </p>
                                                 
                                             <p>
                                                 <label>
-                                                    <input type="checkbox" name="geo" value="geo" />
-                                                    <span>Geo Heatmap</span>
+                                                    <input type="checkbox" name="spiral" value="spiral" />
+                                                    <span>Spiral Plot</span>
+                                                </label>
+                                            </p>
+                                                
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" name="stacked" value="stacked" />
+                                                    <span>Stacked Area Chart</span>
+                                                </label>
+                                            </p>
+                                                
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" name="stacked-bar" value="stacked-bar" />
+                                                    <span>Stacked Bar Chart</span>
+                                                </label>
+                                            </p>
+                                                
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" name="stream" value="stream" />
+                                                    <span>Stream Graph</span>
+                                                </label>
+                                            </p>
+                                                
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" name="treemap" value="treemap" />
+                                                    <span>Treemap</span>
                                                 </label>
                                             </p>
                                                 
@@ -288,22 +281,29 @@ export function addPageBody() {
                                                 
                                             <p>
                                                 <label>
+                                                    <input type="checkbox" name="waffle" value="waffle" />
+                                                    <span>Waffle Chart</span>
+                                                </label>
+                                            </p>
+                                                
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox" name="waterfall" value="waterfall" />
+                                                    <span>Waterfall Chart</span>
+                                                </label>
+                                            </p>
+                                                
+                                            <p>
+                                                <label>
                                                     <input type="checkbox" name="word" value="word" />
                                                     <span>Word Cloud</span>
                                                 </label>
                                             </p>
-                                                
+
                                             <p>
                                                 <label>
-                                                    <input type="checkbox" name="bump" value="bump" />
-                                                    <span>Bump Chart</span>
-                                                </label>
-                                            </p>
-                                                
-                                            <p>
-                                                <label>
-                                                    <input type="checkbox" name="_bespoke" value="_bespoke" />
-                                                    <span>Composite</span>
+                                                <input type="checkbox" name="_bespoke" value="_bespoke" />
+                                                <span>Composite</span>
                                                 </label>
                                             </p>
                                         </div>
