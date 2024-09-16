@@ -54,26 +54,26 @@ Bar Chart,24,bar,https://aeturrell.github.io/python4DS/exploratory-data-analysis
 Bar Chart,25,bar,https://www.urban.org/features/11-charts-about-social-security-disability-insurance-program
 Bar Chart,26,bar,https://ourworldindata.org/grapher/estimated-prevalence-vs-burden-mental-illnesses
 Bar Chart,27,bar,https://ourworldindata.org/grapher/burden-of-disease-by-cause
-Bar Chart in Radial Layout,1,barinradial,https://agill.xyz/research/haiku/analysis/colors
-Bar Chart in Radial Layout,2,barinradial,https://observablehq.com/@d3/radial-stacked-bar-chart
-Bar Chart in Radial Layout,3,barinradial,https://observablehq.com/@s0rta/radial-bar-chart-proof-of-conecpt
-Bar Chart in Radial Layout,4,barinradial,https://www.predicthq.com/blog/ldi-july22
-Bar Chart in Radial Layout,5,barinradial,https://www.commerce.ai/2022-report-register
-Bar Chart in Radial Layout,6,barinradial,https://observablehq.com/@instancia/radial-stacked-bar-chart
-Bar Chart in Radial Layout,7,barinradial,https://observablehq.com/@kclosu/radial-stacked-bar-chart
-Bar Chart in Radial Layout,8,barinradial,https://datavizcatalogue.com/methods/radial_column_chart.html
-Bar Chart in Radial Layout,9,barinradial,https://observablehq.com/@paulyiu/radial-stacked-bar-chart/2
-Bar Chart in Radial Layout,10,barinradial,https://datavizcatalogue.com/methods/radial_column_chart.html
-Bar Chart in Radial Layout,11,barinradial,https://svend3r.dev/charts/radialStacked
-Bar Chart in Radial Layout,12,barinradial,https://observablehq.com/@nobodyzxc/radial-stacked-bar-chart
-Bar Chart in Radial Layout,13,barinradial,https://observablehq.com/@kukovisuals/radial-stacked-bar-chart
-Bar Chart in Radial Layout,14,barinradial,https://observablehq.com/@monicawoj/spice-blends-the-power-of-proportions
-Bar Chart in Radial Layout,15,barinradial,https://observablehq.com/@summerone123/radial-stacked-bar-chart
-Bar Chart in Radial Layout,16,barinradial,https://observablehq.com/@miaxmzhu/radial-stacked-bar-chart
-Bar Chart in Radial Layout,17,barinradial,https://observablehq.com/@cristiancs/millones-de-visualizaciones-por-episodio
-Bar Chart in Radial Layout,18,barinradial,https://observablehq.com/@monicagg/uk-raindays-radial-stacked-bar-chart
-Bar Chart in Radial Layout,19,barinradial,https://observablehq.com/@yieldtactics/radial-stacked-bar-chart
-Bar Chart in Radial Layout,20,barinradial,https://observablehq.com/@thetylerwolf/day-17-radial-bar-chart
+Bar Chart In Radial Layout,1,barinradial,https://agill.xyz/research/haiku/analysis/colors
+Bar Chart In Radial Layout,2,barinradial,https://observablehq.com/@d3/radial-stacked-bar-chart
+Bar Chart In Radial Layout,3,barinradial,https://observablehq.com/@s0rta/radial-bar-chart-proof-of-conecpt
+Bar Chart In Radial Layout,4,barinradial,https://www.predicthq.com/blog/ldi-july22
+Bar Chart In Radial Layout,5,barinradial,https://www.commerce.ai/2022-report-register
+Bar Chart In Radial Layout,6,barinradial,https://observablehq.com/@instancia/radial-stacked-bar-chart
+Bar Chart In Radial Layout,7,barinradial,https://observablehq.com/@kclosu/radial-stacked-bar-chart
+Bar Chart In Radial Layout,8,barinradial,https://datavizcatalogue.com/methods/radial_column_chart.html
+Bar Chart In Radial Layout,9,barinradial,https://observablehq.com/@paulyiu/radial-stacked-bar-chart/2
+Bar Chart In Radial Layout,10,barinradial,https://datavizcatalogue.com/methods/radial_column_chart.html
+Bar Chart In Radial Layout,11,barinradial,https://svend3r.dev/charts/radialStacked
+Bar Chart In Radial Layout,12,barinradial,https://observablehq.com/@nobodyzxc/radial-stacked-bar-chart
+Bar Chart In Radial Layout,13,barinradial,https://observablehq.com/@kukovisuals/radial-stacked-bar-chart
+Bar Chart In Radial Layout,14,barinradial,https://observablehq.com/@monicawoj/spice-blends-the-power-of-proportions
+Bar Chart In Radial Layout,15,barinradial,https://observablehq.com/@summerone123/radial-stacked-bar-chart
+Bar Chart In Radial Layout,16,barinradial,https://observablehq.com/@miaxmzhu/radial-stacked-bar-chart
+Bar Chart In Radial Layout,17,barinradial,https://observablehq.com/@cristiancs/millones-de-visualizaciones-por-episodio
+Bar Chart In Radial Layout,18,barinradial,https://observablehq.com/@monicagg/uk-raindays-radial-stacked-bar-chart
+Bar Chart In Radial Layout,19,barinradial,https://observablehq.com/@yieldtactics/radial-stacked-bar-chart
+Bar Chart In Radial Layout,20,barinradial,https://observablehq.com/@thetylerwolf/day-17-radial-bar-chart
 BoxAndWhisker,1,BoxAndWhisker,https://www.nagwa.com/en/explainers/812192146073/
 BoxAndWhisker,2,BoxAndWhisker,https://apexcharts.com/wp-content/uploads/2021/02/basic-boxplot.svg
 BoxAndWhisker,3,BoxAndWhisker,https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/box-whisker-plots/a/box-plot-review
@@ -251,49 +251,49 @@ Connected Dot Plot,19,connected,https://plotly.com/python/dumbbell-plots/
 Connected Dot Plot,20,connected,https://plotly.com/python/dumbbell-plots/
 Connected Dot Plot,21,connected,https://jscharting.com/examples/chart-types/dumbbell/line-segment-styling/
 Connected Dot Plot,22,connected,https://jscharting.com/examples/chart-types/dumbbell/vertical/
-Connected Scatterplot,1,connectedsp,https://insights.datylon.com/stories/oqOJDl0RCVUMdGl2dJ1Kuw
-Connected Scatterplot,2,connectedsp,https://mascot-vis.github.io/gallery.html#ConnectedScatterplot
-Connected Scatterplot,3,connectedsp,https://observablehq.com/@d3/connected-scatterplot
-Connected Scatterplot,4,connectedsp,https://vega.github.io/vega-lite/examples/connected_scatterplot.html
-Connected Scatterplot,5,connectedsp,https://medium.com/mlearning-ai/tableau-tutorial-how-to-create-a-connected-scatterplot-12a67f4a6855
-Connected Scatterplot,6,connectedsp,https://aeturrell.github.io/coding-for-economists/vis-common-plots.html
-Connected Scatterplot,7,connectedsp,https://dataviz.unhcr.org/tools/r/r_scatterplot_connected.html
-Connected Scatterplot,8,connectedsp,https://finnstats.com/index.php/2022/11/16/how-to-make-a-connected-scatter-plot-in-r/
-Connected Scatterplot,9,connectedsp,http://steveharoz.com/research/connected_scatterplot/
-Connected Scatterplot,10,connectedsp,http://steveharoz.com/research/connected_scatterplot/
-Connected Scatterplot,11,connectedsp,https://observablehq.com/@nikomccarty/connected-scatterplot-animation-d3
-Connected Scatterplot,12,connectedsp,https://observablehq.com/@bluecloudmatrix/connected-scatterplot/3
-Connected Scatterplot,13,connectedsp,https://freerangestats.info/blog/2016/08/18/dualaxes
-Connected Scatterplot,14,connectedsp,https://observablehq.com/@nikomccarty/connected-scatterplot-tooltip-d3
-Connected Scatterplot,15,connectedsp,https://observablehq.com/@andyreagan/connected-scatterplot-gamestonk
-Connected Scatterplot,16,connectedsp,https://observablehq.com/@observablehq/plot-connected-scatterplot
-Connected Scatterplot,17,connectedsp,https://www.jeffdoser.com/files/for875/_book/ggplot2
-Connected Scatterplot,18,connectedsp,https://www.jeffdoser.com/files/for875/_book/graphics
-Connected Scatterplot,19,connectedsp,https://observablehq.com/@lewissmit/connected-scatterplot
-Connected Scatterplot,20,connectedsp,https://observablehq.com/@bluecloudmatrix/connected-scatterplot
-Connected Scatterplot,21,connectedsp,https://www.urban.org/features/11-charts-about-social-security-disability-insurance-program
-Density plot,1,density,https://en.wikipedia.org/wiki/File:Rating_count_density_by_project_quality_assessment.svg
-Density plot,2,density,https://datavizcatalogue.com/methods/density_plot.html
-Density plot,3,density,https://d3-graph-gallery.com/graph/density_basic.html
-Density plot,4,density,https://commons.wikimedia.org/wiki/File:Reaction_time_density_plot.svg
-Density plot,5,density,https://vega.github.io/vega-lite/examples/area_density.html
-Density plot,6,density,https://mascot-vis.github.io/gallery#DensityPlot
-Density plot,7,density,https://insights.datylon.com/stories/r5Suw19BKP9CwiaV_xBLqA
-Density plot,8,density,https://mascot-vis.github.io/gallery.html#ridgelinePlot
-Density plot,9,density,https://wilkelab.org/SDS375/slides/visualizing-distributions-2_files/figure-html/temps_densities_overlapping-1.svg
-Density plot,10,density,https://people.ohio.edu/ruhil/RBookNew/05-VisualizingData_files/figure-html/05-VisualizingData-28-1.svg
-Density plot,11,density,https://bookdown.org/max/FES/figures/numeric-kPCA-comparison-1.svg
-Density plot,12,density,https://commons.wikimedia.org/wiki/File:Wpmed-view-density.svg
-Density plot,13,density,https://kotlin.github.io/kandy/density-plot-guide.html
-Density plot,14,density,https://kotlin.github.io/kandy/area-density-plot.html
-Density plot,15,density,https://www.lagotto.io/examples/2013/12/11/plos-biology-2010-citation-counts/
-Density plot,16,density,https://lsj.readthedocs.io/ar/latest/Ch05/Ch05_Graphics_1.html
-Density plot,17,density,https://tutorials.pumas.ai/html/PlottingInJulia/03-AoG-Stats.html
-Density plot,18,density,http://rnact.crg.eu/about
-Density plot,19,density,https://www.boelstad.net/post/bayesian_statistics_introduction/
-Density plot,20,density,https://jadbio.com/case-studies/machine-learning-approach-utilizing-dna-methylation-as-accurate-classifier-of-covid-19-disease-severity/
-Density plot,21,density,https://aeturrell.github.io/coding-for-economists/vis-common-plots.html#network-diagrams
-Density plot,22,density,https://kotlin.github.io/kandy/kandy/guideDensitySimpleGroupedDensityPlot.svg
+Connected ScatterPlot,1,connectedsp,https://insights.datylon.com/stories/oqOJDl0RCVUMdGl2dJ1Kuw
+Connected ScatterPlot,2,connectedsp,https://mascot-vis.github.io/gallery.html#ConnectedScatterplot
+Connected ScatterPlot,3,connectedsp,https://observablehq.com/@d3/connected-scatterplot
+Connected ScatterPlot,4,connectedsp,https://vega.github.io/vega-lite/examples/connected_scatterplot.html
+Connected ScatterPlot,5,connectedsp,https://medium.com/mlearning-ai/tableau-tutorial-how-to-create-a-connected-scatterplot-12a67f4a6855
+Connected ScatterPlot,6,connectedsp,https://aeturrell.github.io/coding-for-economists/vis-common-plots.html
+Connected ScatterPlot,7,connectedsp,https://dataviz.unhcr.org/tools/r/r_scatterplot_connected.html
+Connected ScatterPlot,8,connectedsp,https://finnstats.com/index.php/2022/11/16/how-to-make-a-connected-scatter-plot-in-r/
+Connected ScatterPlot,9,connectedsp,http://steveharoz.com/research/connected_scatterplot/
+Connected ScatterPlot,10,connectedsp,http://steveharoz.com/research/connected_scatterplot/
+Connected ScatterPlot,11,connectedsp,https://observablehq.com/@nikomccarty/connected-scatterplot-animation-d3
+Connected ScatterPlot,12,connectedsp,https://observablehq.com/@bluecloudmatrix/connected-scatterplot/3
+Connected ScatterPlot,13,connectedsp,https://freerangestats.info/blog/2016/08/18/dualaxes
+Connected ScatterPlot,14,connectedsp,https://observablehq.com/@nikomccarty/connected-scatterplot-tooltip-d3
+Connected ScatterPlot,15,connectedsp,https://observablehq.com/@andyreagan/connected-scatterplot-gamestonk
+Connected ScatterPlot,16,connectedsp,https://observablehq.com/@observablehq/plot-connected-scatterplot
+Connected ScatterPlot,17,connectedsp,https://www.jeffdoser.com/files/for875/_book/ggplot2
+Connected ScatterPlot,18,connectedsp,https://www.jeffdoser.com/files/for875/_book/graphics
+Connected ScatterPlot,19,connectedsp,https://observablehq.com/@lewissmit/connected-scatterplot
+Connected ScatterPlot,20,connectedsp,https://observablehq.com/@bluecloudmatrix/connected-scatterplot
+Connected ScatterPlot,21,connectedsp,https://www.urban.org/features/11-charts-about-social-security-disability-insurance-program
+Density Plot,1,density,https://en.wikipedia.org/wiki/File:Rating_count_density_by_project_quality_assessment.svg
+Density Plot,2,density,https://datavizcatalogue.com/methods/density_plot.html
+Density Plot,3,density,https://d3-graph-gallery.com/graph/density_basic.html
+Density Plot,4,density,https://commons.wikimedia.org/wiki/File:Reaction_time_density_plot.svg
+Density Plot,5,density,https://vega.github.io/vega-lite/examples/area_density.html
+Density Plot,6,density,https://mascot-vis.github.io/gallery#DensityPlot
+Density Plot,7,density,https://insights.datylon.com/stories/r5Suw19BKP9CwiaV_xBLqA
+Density Plot,8,density,https://mascot-vis.github.io/gallery.html#ridgelinePlot
+Density Plot,9,density,https://wilkelab.org/SDS375/slides/visualizing-distributions-2_files/figure-html/temps_densities_overlapping-1.svg
+Density Plot,10,density,https://people.ohio.edu/ruhil/RBookNew/05-VisualizingData_files/figure-html/05-VisualizingData-28-1.svg
+Density Plot,11,density,https://bookdown.org/max/FES/figures/numeric-kPCA-comparison-1.svg
+Density Plot,12,density,https://commons.wikimedia.org/wiki/File:Wpmed-view-density.svg
+Density Plot,13,density,https://kotlin.github.io/kandy/density-plot-guide.html
+Density Plot,14,density,https://kotlin.github.io/kandy/area-density-plot.html
+Density Plot,15,density,https://www.lagotto.io/examples/2013/12/11/plos-biology-2010-citation-counts/
+Density Plot,16,density,https://lsj.readthedocs.io/ar/latest/Ch05/Ch05_Graphics_1.html
+Density Plot,17,density,https://tutorials.pumas.ai/html/PlottingInJulia/03-AoG-Stats.html
+Density Plot,18,density,http://rnact.crg.eu/about
+Density Plot,19,density,https://www.boelstad.net/post/bayesian_statistics_introduction/
+Density Plot,20,density,https://jadbio.com/case-studies/machine-learning-approach-utilizing-dna-methylation-as-accurate-classifier-of-covid-19-disease-severity/
+Density Plot,21,density,https://aeturrell.github.io/coding-for-economists/vis-common-plots.html#network-diagrams
+Density Plot,22,density,https://kotlin.github.io/kandy/kandy/guideDensitySimpleGroupedDensityPlot.svg
 Diverging Stacked Bar Chart,1,diverging,https://observablehq.com/@d3/diverging-stacked-bar-chart
 Diverging Stacked Bar Chart,2,diverging,https://plotly.com/javascript/bar-charts/#diverging-bar-chart
 Diverging Stacked Bar Chart,3,diverging,https://vega.github.io/vega-lite/examples/bar_diverging_stack_population_pyramid.html
