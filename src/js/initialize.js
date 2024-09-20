@@ -98,93 +98,113 @@ function initializeModal() {
     });
 }
 
-function bookmarkModal(id) {
+async function bookmarkModal(id) {
   var exampleCards = document.getElementById("bkModalContentsvg");
   var jsonDisplay = document.getElementById("json-display");
-  // clears previous content in exampleCards component
+
+  // Clears previous content in exampleCards component
   while (exampleCards.firstChild) {
     exampleCards.removeChild(exampleCards.firstChild);
   }
+
   console.log("selected bookmarks id", id);
-  // retrieves the chosen chart's svg image
-  fetch("examples_svg/" + id.replace("png", "svg"))
-    .then((r) => r.text())
-    .then((text) => {
-      // console.log(text);
-      allSVGElementID = [];
-      idMappings = {}; // Reset ID mappings
-      indices = {}; // Reset indices
-      exampleCards.innerHTML = text;
-      console.log("svg retrieved and displayed");
 
-      let vis = exampleCards.firstChild;
-      vis.setAttribute("id", "vis");
-      const svgElement = document.querySelector("#vis");
-      svgElement.removeAttribute("viewBox");
-      addClassAndIdToLeaves(svgElement);
-      updateUseElementReferences(svgElement);
+  // Retrieves the chosen chart's svg image
+  try {
+    const svgResponse = await fetch("examples_svg/" + id.replace("png", "svg"));
+    const svgText = await svgResponse.text();
+    
+    allSVGElementID = [];
+    idMappings = {}; // Reset ID mappings
+    indices = {}; // Reset indices
+    exampleCards.innerHTML = svgText;
+    console.log("svg retrieved and displayed");
 
-      vis.setAttribute("width", "100%");
-      vis.setAttribute("height", "100%");
+    let vis = exampleCards.firstChild;
+    let i = 0;
+
+    // Wait for vis element to be created
+    while (!vis || !(vis instanceof SVGElement)) {
+      console.log("Waiting for vis element...");
+      await delay(50);  // Wait 50ms before checking again
+      vis = exampleCards.firstChild;
+      i++;
+      if(i == 30){//prevents infinite loop
+        return error;
+      }
+    }
+
+    vis.setAttribute("id", "vis");
+    const svgElement = document.querySelector("#vis");
+    svgElement.removeAttribute("viewBox");
+    addClassAndIdToLeaves(svgElement);
+    updateUseElementReferences(svgElement);
+
+    vis.setAttribute("width", "100%");
+    vis.setAttribute("height", "100%");
+  } catch (error) {
+    console.error("Error fetching SVG:", error);
+  }
+
+  // Fetches the chosen chart's annotations and displays those annotations
+  try {
+    const annotationResponse = await fetch("annotations/" + id.replace("png", "json"));
+    const data = await annotationResponse.json();
+    console.log(data);
+
+    let allBBoxes = Object.values(data.annotations.allGraphicsElement);
+    let vb = {
+      left: allBBoxes.map((bbox) => bbox.left).reduce((a, b) => Math.min(a, b)),
+      top: allBBoxes.map((bbox) => bbox.top).reduce((a, b) => Math.min(a, b)),
+      right: allBBoxes.map((bbox) => bbox.right).reduce((a, b) => Math.max(a, b)),
+      bottom: allBBoxes.map((bbox) => bbox.bottom).reduce((a, b) => Math.max(a, b)),
+    };
+
+    let margin = 15;
+    let vbString = [
+      vb.left - margin,
+      vb.top - margin,
+      vb.right - vb.left + margin * 2,
+      vb.bottom - vb.top + margin * 2,
+    ].join(",");
+
+    let vis = exampleCards.firstChild;
+    vis.setAttribute("viewBox", vbString);
+
+    // Create the editor instance
+    var editor = new JSONEditor(jsonDisplay, {
+      mode: "view",
+      modes: ["view", "code"], // available modes
+      onError: function (err) {
+        console.log(err);
+      },
     });
 
-  // fetches the chosen chart's annotations
-  // and displays those annotations
-  fetch("annotations/" + id.replace("png", "json"))
-    .then((r) => r.json())
-    .then((data) => {
-      console.log(data);
+    // Set JSON data
+    editor.set(data);
+  } catch (error) {
+    console.log("annotations not found: " + error);
+    var temp = { file: "missing" };
 
-      let allBBoxes = Object.values(data.annotations.allGraphicsElement);
-      let vb = {
-        left: allBBoxes
-          .map((bbox) => bbox.left)
-          .reduce((a, b) => Math.min(a, b)),
-        top: allBBoxes.map((bbox) => bbox.top).reduce((a, b) => Math.min(a, b)),
-        right: allBBoxes
-          .map((bbox) => bbox.right)
-          .reduce((a, b) => Math.max(a, b)),
-        bottom: allBBoxes
-          .map((bbox) => bbox.bottom)
-          .reduce((a, b) => Math.max(a, b)),
-      };
-      let margin = 15,
-        vbString = [
-          vb.left - margin,
-          vb.top - margin,
-          vb.right - vb.left + margin * 2,
-          vb.bottom - vb.top + margin * 2,
-        ].join(",");
-      let vis = exampleCards.firstChild;
-      vis.setAttribute("viewBox", vbString);
-      // Create the editor instance
-      var editor = new JSONEditor(jsonDisplay, {
-        mode: "view",
-        modes: ["view", "code"], // available modes
-        onError: function (err) {
-          console.log(err);
-        },
-      });
-
-      // Set JSON data
-      editor.set(data);
-    })
-    .catch((error) => {
-      console.log("annotations not found: " + error);
-      var temp = { file: "missing" };
-
-      // Create the editor instance
-      var editor = new JSONEditor(jsonDisplay, {
-        mode: "view",
-        modes: ["view", "code"], // available modes
-        onError: function (err) {
-          console.log(err);
-        },
-      });
-
-      // Set JSON data
-      editor.set(temp);
+    // Create the editor instance
+    var editor = new JSONEditor(jsonDisplay, {
+      mode: "view",
+      modes: ["view", "code"], // available modes
+      onError: function (err) {
+        console.log(err);
+      },
     });
+
+    // Set JSON data
+    editor.set(temp);
+  }
+
+  // Utility function to introduce delay
+  function delay(ms) {
+    console.log("waiting for vis to be created");
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
+
   // fetches the chosen chart's annotations
   // and displays those annotations
   // fetch("../assets/annotations/"+id.replace("png", "json"))
