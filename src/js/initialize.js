@@ -181,7 +181,6 @@ async function bookmarkModal(id) {
     });
 
     // Set JSON data
-    jsonDisplay.innerHTML = "";
     editor.set(data);
   } catch (error) {
     console.log("annotations not found: " + error);
