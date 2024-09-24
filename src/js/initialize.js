@@ -151,6 +151,7 @@ async function bookmarkModal(id) {
     const annotationResponse = await fetch("annotations/" + id.replace("png", "json"));
     const data = await annotationResponse.json();
     console.log(data);
+    document.getElementById("json-display").innerHTML = "";
 
     let allBBoxes = Object.values(data.annotations.allGraphicsElement);
     let vb = {
