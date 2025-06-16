@@ -46,6 +46,13 @@ export function addPageBody() {
                                                 <span>Bar Chart</span>
                                                 </label>
                                             </p>
+
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="barinradial" value="barinradial" />
+                                                <span>Bar Chart in Radial Layout</span>
+                                                </label>
+                                            </p>
                     
                                             <p>
                                                 <label>
@@ -138,6 +145,13 @@ export function addPageBody() {
                                                 </label>
                                             </p>
                     
+                                            <p>
+                                                <label>
+                                                <input type="checkbox" name="gantt" value="gantt" />
+                                                <span>Gantt Chart</span>
+                                                </label>
+                                            </p>
+
                                             <p>
                                                 <label>
                                                 <input type="checkbox" name="geo" value="geo" />
