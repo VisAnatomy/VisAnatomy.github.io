@@ -29,7 +29,7 @@ export function addPageBody() {
                         <ul class="collapsible">
                             <!-- 40 Chart Types -->
                             <li class="active">
-                                <div class="collapsible-header">40 Chart Types</div>
+                                <div class="collapsible-header">40 Chart Types + Bespoke Designs</div>
                                 <div class="collapsible-body">
                                     <div class="row">
                                         <div class="cols6">
@@ -318,7 +318,7 @@ export function addPageBody() {
                                             <p>
                                                 <label>
                                                 <input type="checkbox" name="_bespoke" value="_bespoke" />
-                                                <span>Others</span>
+                                                <span>Others (Bespoke Charts)</span>
                                                 </label>
                                             </p>
                                         </div>
