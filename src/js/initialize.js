@@ -148,29 +148,56 @@ async function bookmarkModal(id) {
 
   // Fetches the chosen chart's annotations and displays those annotations
   try {
-    const annotationResponse = await fetch("annotations/" + id.replace("png", "json"));
+    const annotationPath = "annotations/" + id.replace("png", "json");
+    console.log("Attempting to fetch annotation file:", annotationPath);
+    console.log("Original ID:", id);
+    
+    const annotationResponse = await fetch(annotationPath);
+    console.log("Fetch response status:", annotationResponse.status);
+    console.log("Fetch response ok:", annotationResponse.ok);
+    
+    if (!annotationResponse.ok) {
+      throw new Error(`HTTP error! status: ${annotationResponse.status} for file: ${annotationPath}`);
+    }
+    
     const data = await annotationResponse.json();
-    console.log(data);
+    console.log("Successfully loaded annotation data:", data);
     document.getElementById("json-display").innerHTML = "";
 
-    let allBBoxes = Object.values(data.annotations.allGraphicsElement);
-    let vb = {
-      left: allBBoxes.map((bbox) => bbox.left).reduce((a, b) => Math.min(a, b)),
-      top: allBBoxes.map((bbox) => bbox.top).reduce((a, b) => Math.min(a, b)),
-      right: allBBoxes.map((bbox) => bbox.right).reduce((a, b) => Math.max(a, b)),
-      bottom: allBBoxes.map((bbox) => bbox.bottom).reduce((a, b) => Math.max(a, b)),
-    };
+    // Check if the expected structure exists, try different property names
+    let allBBoxes;
+    if (data.annotations && data.annotations.allGraphicsElement) {
+      allBBoxes = Object.values(data.annotations.allGraphicsElement);
+    } else if (data.allElements) {
+      allBBoxes = Object.values(data.allElements);
+    } else if (data.allGraphicsElement) {
+      allBBoxes = Object.values(data.allGraphicsElement);
+    } else {
+      console.warn("Could not find bounding box data in annotation file");
+      allBBoxes = [];
+    }
 
-    let margin = 15;
-    let vbString = [
-      vb.left - margin,
-      vb.top - margin,
-      vb.right - vb.left + margin * 2,
-      vb.bottom - vb.top + margin * 2,
-    ].join(",");
+    if (allBBoxes.length > 0) {
+      let vb = {
+        left: allBBoxes.map((bbox) => bbox.left).reduce((a, b) => Math.min(a, b)),
+        top: allBBoxes.map((bbox) => bbox.top).reduce((a, b) => Math.min(a, b)),
+        right: allBBoxes.map((bbox) => bbox.right).reduce((a, b) => Math.max(a, b)),
+        bottom: allBBoxes.map((bbox) => bbox.bottom).reduce((a, b) => Math.max(a, b)),
+      };
 
-    let vis = exampleCards.firstChild;
-    vis.setAttribute("viewBox", vbString);
+      let margin = 15;
+      let vbString = [
+        vb.left - margin,
+        vb.top - margin,
+        vb.right - vb.left + margin * 2,
+        vb.bottom - vb.top + margin * 2,
+      ].join(",");
+
+      let vis = exampleCards.firstChild;
+      if (vis) {
+        vis.setAttribute("viewBox", vbString);
+      }
+    }
 
     // Create the editor instance
     var editor = new JSONEditor(jsonDisplay, {
@@ -184,7 +211,9 @@ async function bookmarkModal(id) {
     // Set JSON data
     editor.set(data);
   } catch (error) {
+    console.error("Error fetching/parsing annotations:", error);
     console.log("annotations not found: " + error);
+    console.log("Failed annotation path was:", "annotations/" + id.replace("png", "json"));
     var temp = { file: "missing" };
 
     // Create the editor instance
